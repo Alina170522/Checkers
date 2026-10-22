@@ -2,6 +2,8 @@
 
 Браузерная игра в русские шашки на двоих игроков за одним экраном. Сделана на Vue 3 как практика по состоянию (Pinia) и композаблам.
 
+**Демо:** https://alina170522.github.io/Checkers/
+
 ![Скриншот](docs/screenshot.png)
 
 ## Что реализовано
@@ -37,3 +39,10 @@ src/
 
 ## Автор
 Алина Штауб — [портфолио в Figma](https://www.figma.com/)
+
+## Публикация на GitHub Pages
+Сайт публикуется из ветки `gh-pages`. Чтобы обновить:
+```bash
+npx vite build --base=/Checkers/   # результат: dist/
+```
+Затем содержимое собранной папки отправляется в ветку `gh-pages` (Settings → Pages → Deploy from a branch → `gh-pages` / root).
